@@ -1,6 +1,7 @@
 package com.movieflix.service;
 
 import com.movieflix.dto.MovieDto;
+import com.movieflix.dto.MoviePageResponse;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -19,4 +20,11 @@ public interface MovieService {
 
     String deleteMovie(Integer movieId) throws IOException;
 
+    MoviePageResponse getAllMovieWithPagination(Integer pageNumber, Integer pageSize);
+
+    MoviePageResponse getAllMovieWithPaginationAndSorting(Integer pageNumber, Integer pageSize,
+                                                          String sortBy, String dir);
+
 }
+
+
