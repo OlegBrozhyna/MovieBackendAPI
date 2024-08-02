@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Arrival",
+    "directory": "Denis Villeneuve",
+    "studio": "Paramount Pictures",
+    "movieCast": [
+      "Amy Adams",
+      "Jeremy Renner",
+      "Forest Whitaker"
+    ],
+    "releaseYear": 2016,
+    "poster": "http://example.com/arrival-poster.jpg"
+  },
+  {
+    "title": "Doctor Strange",
+    "directory": "Scott Derrickson",
+    "studio": "Marvel Studios",
+    "movieCast": [
+      "Benedict Cumberbatch",
+      "Chiwetel Ejiofor",
+      "Rachel McAdams",
+      "Benedict Wong"
+    ],
+    "releaseYear": 2016,
+    "poster": "http://example.com/doctor-strange-poster.jpg"
+  },
+  {
+    "title": "Interstellar",
+    "directory": "Christopher Nolan",
+    "studio": "Paramount Pictures",
+    "movieCast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain",
+      "Michael Caine"
+    ],
+    "releaseYear": 2014,
+    "poster": "http://example.com/interstellar-poster.jpg"
+  },
+  {
+    "title": "Terminator Genisys",
+    "directory": "Alan Taylor",
+    "studio": "Paramount Pictures",
+    "movieCast": [
+      "Arnold Schwarzenegger",
+      "Jason Clarke",
+      "Emilia Clarke",
+      "Jai Courtney"
+    ],
+    "releaseYear": 2015,
+    "poster": "http://example.com/terminator-genisys-poster.jpg"
+  }
+]
