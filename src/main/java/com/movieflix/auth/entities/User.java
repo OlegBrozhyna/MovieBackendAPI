@@ -44,6 +44,8 @@ public class User implements UserDetails {
     private RefreshToken refreshToken;
 
 
+
+
     @Enumerated(EnumType.STRING)
     private UserRole role;
 

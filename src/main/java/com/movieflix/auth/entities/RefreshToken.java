@@ -26,4 +26,5 @@ public class RefreshToken {
     @OneToOne
     private User user;
 
+
 }

@@ -36,6 +36,10 @@ public class ApplicationConfig {
         return authenticationProvider;
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
         return config.getAuthenticationManager();
     }
