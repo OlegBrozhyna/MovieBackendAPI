@@ -6,15 +6,15 @@ user authentication and authorization using JWT, as well as email sending capabi
 
 # Technologies
 
-* Spring Boot: Framework for building Java applications.
-* Spring Data JPA: For database access.
-* Spring Validation: For data validation.
-* Spring Web: For creating RESTful services.
-* Spring Mail: For sending emails.
-* Spring Security: For authentication and authorization.
-* JSON Web Token (JWT): For secure information exchange between parties.
-* MySQL: Database for storing movie information.
-* Lombok: To reduce boilerplate code in Java.
+* Spring Boots.
+* Spring Data JPA
+* Spring Validation
+* Spring Web
+* Spring Mail
+* Spring Security
+* JSON Web Token (JWT)
+* MySQL
+* Lombok
 
 # Requirements
 

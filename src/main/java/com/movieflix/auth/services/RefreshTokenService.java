@@ -14,6 +14,7 @@ import java.util.UUID;
 public class RefreshTokenService {
 
     private final UserRepository userRepository;
+
     private final RefreshTokenRepository refreshTokenRepository;
 
     public RefreshTokenService(UserRepository userRepository, RefreshTokenRepository refreshTokenRepository) {
@@ -22,7 +23,7 @@ public class RefreshTokenService {
     }
 
     public RefreshToken createRefreshToken(String username) {
-        User user = userRepository.findByUsername(username)
+        User user = userRepository.findByEmail(username)
                 .orElseThrow(() -> new UsernameNotFoundException("User not found with email : " + username));
 
         RefreshToken refreshToken = user.getRefreshToken();
@@ -53,4 +54,3 @@ public class RefreshTokenService {
         return refToken;
     }
 }
-
