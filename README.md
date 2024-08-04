@@ -1,4 +1,13 @@
+# MovieAPI
+
+# Description
+
+MovieAPI is a RESTful API for managing movies, developed using Spring Boot and MySQL.
+This project provides basic CRUD operations for movies and their categories,
+user authentication and authorization using JWT, as well as email sending capabilities.
+
 # Technologies
+
 * Spring Boot 3.2.8: Framework for building Java applications.
 * Spring Data JPA: For database access.
 * Spring Validation: For data validation.
@@ -13,3 +22,10 @@
 
 * Java 21
 * MySQL 8.2.0
+
+# Features
+
+* User registration and authentication
+* Adding, editing, deleting, and viewing movies
+* Adding and editing movie categories
+* Sending email notifications
