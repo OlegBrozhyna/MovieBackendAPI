@@ -6,7 +6,7 @@ user authentication and authorization using JWT, as well as email sending capabi
 
 # Technologies
 
-* Spring Boot 3.2.8: Framework for building Java applications.
+* Spring Boot: Framework for building Java applications.
 * Spring Data JPA: For database access.
 * Spring Validation: For data validation.
 * Spring Web: For creating RESTful services.
@@ -19,7 +19,7 @@ user authentication and authorization using JWT, as well as email sending capabi
 # Requirements
 
 * Java 21
-* MySQL 8.2.0
+* MySQL 
 
 # Features
 
