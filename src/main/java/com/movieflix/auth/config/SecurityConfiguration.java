@@ -19,6 +19,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableMethodSecurity
 public class SecurityConfiguration {
 
+
     private final AuthFilterService authFilterService;
     private final AuthenticationProvider authenticationProvider;
 
