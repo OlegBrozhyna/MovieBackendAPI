@@ -19,7 +19,7 @@ user authentication and authorization using JWT, as well as email sending capabi
 # Requirements
 
 * Java 21
-* MySQL 
+* MySQL
 
 # Features
 
