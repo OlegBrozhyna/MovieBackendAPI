@@ -28,14 +28,12 @@ public class MovieController {
 
     @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping("/add-movie")
-    public ResponseEntity<MovieDto> addMovieHandler(
-            @RequestPart MultipartFile file,
-            @RequestPart String movieDto) throws IOException, EmptyFileException {
+    public ResponseEntity<MovieDto> addMovieHandler(@RequestPart MultipartFile file,
+                                                    @RequestPart String movieDto) throws IOException, EmptyFileException {
 
         if (file.isEmpty()) {
             throw new EmptyFileException("File is empty! Please send another file!");
         }
-
         MovieDto dto = convertToMovieDto(movieDto);
         return new ResponseEntity<>(movieService.addMovie(dto, file), HttpStatus.CREATED);
     }
